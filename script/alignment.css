@@ -1,0 +1,4 @@
+.stChatMessage:has(.chat-user) {
+    flex-direction: row-reverse;
+    text-align: right;
+}
