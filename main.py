@@ -2,7 +2,7 @@ import argparse
 from faker import Faker
 import random
 
-class EtexChatbot:
+class Chatbot:
     def __init__(self) -> None:
         self.fake = Faker()
 
@@ -10,10 +10,10 @@ class EtexChatbot:
         response = " ".join([self.fake.sentence() for _ in range(random.randrange(10, 30))])
         return response
 
-chatbot = EtexChatbot()
+chatbot = Chatbot()
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="EtexChatbot")
+    parser = argparse.ArgumentParser(description="Chatbot")
     parser.add_argument("--prompt", type=str, help="The prompt to get a response for")
     args = parser.parse_args()
     prompt = args.prompt

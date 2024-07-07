@@ -1,7 +1,7 @@
 Certainly! Here's how you can structure your `README.md` file and `requirements.txt` file for the 
-# EtexChatbot
+# Chatbot
 
-EtexChatbot is a simple Python script that generates fake responses using the Faker library.
+Chatbot is a simple Python script that generates fake responses using the Faker library.
 
 ## Installation
 

@@ -16,9 +16,9 @@ class EchoBotApp:
         self.SCROLL_JS_PATH = "./script/scroll.js"
 
 
-        st.set_page_config(page_title="ETEX chatbot", page_icon=":robot_face:")
+        st.set_page_config(page_title="chatbot", page_icon=":robot_face:")
         self.initialize_chat_history()
-        st.title("ETEX chatbot")
+        st.title("chatbot")
         self.load_js()
         self.add_custom_css()
         self.display_chat_history()
